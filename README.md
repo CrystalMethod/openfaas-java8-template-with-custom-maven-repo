@@ -41,7 +41,7 @@ allprojects {
 
 ### nonworking
 
-It is working if the custom maven repo is added to the Java8 templates `build.gradle`
+It is *not* working if the custom maven repo is added to the functions `build.gradle`
 
 [build.gradle](https://raw.githubusercontent.com/CrystalMethod/openfaas-java8-template-with-custom-maven-repo/master/nonworking/maven-repo/build.gradle)
 
