@@ -1,0 +1,9 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  maven-repo:
+    lang: java8
+    handler: ./maven-repo
+    image: maven-repo:latest
